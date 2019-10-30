@@ -1,13 +1,27 @@
-package test2;
+package instanceoF;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Collection {
-    public static void main(String[] args) {
-        List<String> thanh = new ArrayList<>();
-        thanh.add("dat");
-        thanh.add("dinh");
-        System.out.println(thanh);
+public class Parent {
+   int a;
+   int b;
+public Parent(){
+
+}
+    public int getA() {
+        return a;
+    }
+
+    public void setA(int a) {
+        this.a = a;
+    }
+
+    public int getB() {
+        return b;
+    }
+
+    public void setB(int b) {
+        this.b = b;
     }
 }

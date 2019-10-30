@@ -1,15 +1,24 @@
-import dat.hihi;
+package quadraticequation;
 
 import java.util.Scanner;
 
-public class dinh {
+public class QuadraticEquation extends Caculate{
+
+   QuadraticEquation(){
+
+   }
+
     public static void main(String[] args) {
-        hihi.haha();
         Scanner input = new Scanner(System.in);
-        System.out.println("nhập a");
-        int a = input.nextInt();
-        dinh nn = new dinh();
-
-
+        QuadraticEquation caculate = new QuadraticEquation();
+        System.out.println("Nhập vào hệ số của phương trình :");
+        System.out.println("a = ");
+        caculate.setA(input.nextInt());
+        System.out.println(" b = ");
+        caculate.setB(input.nextInt());
+        System.out.println(" c = ");
+        caculate.setC(input.nextInt());
+        caculate.tinhtoan();
     }
+
 }

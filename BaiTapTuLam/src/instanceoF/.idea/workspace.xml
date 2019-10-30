@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ec23b9f-1a27-4f70-a6fa-b761678d9491" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Advance object oriented design/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance object oriented design/src/animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance object oriented design/src/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance object oriented design/src/fruit/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance object oriented design/src/fruit/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance object oriented design/src/fruit/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance object oriented design/src/fruit/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Advance object oriented design/src/fruit/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap2/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BaiTap2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Baitap1/Main/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Baitap1/Main/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Baitap1/Main/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abc/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/ghifile/CreatFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doc/ghifile/ReadAndWriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../giaide1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../giaide1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hahaa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DoiTuong/src/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DoiTuong/src/Rectangel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DoiTuong/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DoiTuong/src/quadraticequation/Caculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DoiTuong/src/quadraticequation/Getter_setter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DoiTuong/src/quadraticequation/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DoiTuong/src/test/MainTinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DoiTuong/src/test/phuongtrinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../KeThua/src/baitap/triangle/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../KeThua/src/baitap/triangle/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../KeThua/src/dinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../KeThua/src/point2d/point3d/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../KeThua/src/point2d/point3d/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../KeThua/src/thanh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../opp/src/opp/CanBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../opp/src/opp/CongNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../opp/src/opp/KySu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../opp/src/opp/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../opp/src/opp/QuanLy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../opp/src/tes/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../opp/src/tes/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../opp/src/tes/test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MangVaPhuongThuc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MangVaPhuongThuc/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1St3AkL2f3Gde87o6Ljd8hOuYYw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../opp" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ec23b9f-1a27-4f70-a6fa-b761678d9491" name="Default Changelist" comment="" />
+      <created>1572368922174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572368922174</updated>
+      <workItem from="1572368923674" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
