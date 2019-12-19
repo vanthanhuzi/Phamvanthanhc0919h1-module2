@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layout :: head">
+    <meta charset="UTF-8">
+    <title>Create Customer</title>
+</head>
+<body>
+<p>
+    <a th:href="@{/}"> Back list customer</a>
+</p>
+<div id="form">
+<form action="#" th:action="@{/customer/save}" method="post" th:object="${customer}" novalidate="novalidate">
+    <table>
+        <tr>
+            <td> Id Customer <input type="hidden" th:field="*{id}"></td>
+        </tr>
+        <tr>
+            <td> Name Customer <input type="text" th:field="*{name}"></td>
+        </tr>
+        <tr>
+            <td> Email Customer<input type="text" th:field="*{email}"></td>
+        </tr>
+        <tr>
+            <td> Address Customer<input type="text" th:field="*{address}"></td>
+        </tr>
+        <tr><input type="submit" value="Save"></tr>
+    </table>
+
+</form>
+</div>
+<footer th:replace="layout::foooter"></footer>
+</body>
+</html>
