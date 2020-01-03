@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns: xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Hello index</h1>
+<h2>
+    <a href="/sign"> Đăng kí khách hàng</a>
+</h2>
+<div th:each="service: ${listservice} ">
+    <p>Name Service</p>
+    <h1 th:text="${service.getTenDichVu()}"> </h1>
+    <p th:text="${service.getChiPhiThue()}"></p>
+    <p th:text="${service.getDientich()}"></p>
+    <a th:href="@{/dichvu/{id}(id=${service.getIddichvu()})}">Chi tiet</a>
+    <a th:href="@{/booking/__${service.getIddichvu()}__}">Booking</a>
+
+</div>
+<h1>Option service</h1>
+<form th:action="@{/}" >
+<select name="fromPrice">
+    <option value="1000000">1 triệu</option>
+    <option value="2000000">2 triệu</option>
+    <option value="3000000">3 triệu</option>
+    <option value="4000000">4 triệu</option>
+    <option value="5000000">5 triệu</option>
+</select>
+    <select name="toPrice">
+        <option value="20000000">20 triệu</option>
+        <option value="3000000">3 triệu</option>
+        <option value="4000000">4 triệu</option>
+        <option value="5000000">5 triệu</option>
+        <option value="6000000">6 triệu</option>
+    </select>
+    <input type="submit" value="search">
+</form>
+</body>
+</html>
