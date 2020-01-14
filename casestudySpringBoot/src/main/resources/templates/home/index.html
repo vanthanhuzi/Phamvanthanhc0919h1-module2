@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-<h1>Hello index</h1>
+
 <h2>
     <a href="/sign"> Đăng kí khách hàng</a>
 </h2>
+<div class="col-3 d-flex flex-column justify-content-center align-items-center mb-5" >
 <div th:each="service: ${listservice} ">
-    <p>Name Service</p>
-    <h1 th:text="${service.getTenDichVu()}"> </h1>
-    <p th:text="${service.getChiPhiThue()}"></p>
-    <p th:text="${service.getDientich()}"></p>
+   <img src="Villa.jpg" class="container" width="400" height="300">
+    <div class="card-body">
+    <h1 class="card-title text-center" th:text="${service.getTenDichVu()}"> </h1>
+    <p class="card-title text-center"  th:text="${service.getChiPhiThue()}"></p>
+    <p class="card-title text-center"  th:text="${service.getDientich()} + m2"></p>
     <a th:href="@{/dichvu/{id}(id=${service.getIddichvu()})}">Chi tiet</a>
     <a th:href="@{/booking/__${service.getIddichvu()}__}">Booking</a>
+    <a th:href="@{'/favorite/' + ${service.getIddichvu()}}">Favorite</a>
+    </div>
 
+</div>
 </div>
 <h1>Option service</h1>
 <form th:action="@{/}" >

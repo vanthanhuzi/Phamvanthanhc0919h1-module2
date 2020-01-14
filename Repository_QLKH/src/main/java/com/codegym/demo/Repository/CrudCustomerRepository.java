@@ -2,6 +2,9 @@ package com.codegym.demo.Repository;
 
 import org.springframework.stereotype.Repository;
 
-public interface CustomerRepository extends Repository {
+import java.io.Serializable;
+
+public interface CrudCustomerRepository<T,ID extends Serializable> extends Repository<T,ID>{
+
 
 }

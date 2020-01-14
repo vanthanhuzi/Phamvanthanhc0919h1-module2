@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1>
+    <a th:href="@{/customer}"> List Customer</a>
+</h1>
+<div class="container">
+
+    <p style="color: navy">
+        <a th:href="@{/customer/create-customer}">Create Customer</a>
+    </p>
+    <h2 style="text-align: center">Customer List</h2>
+    <table class="table table-dark table-hover" >
+        <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Province</th>
+            <th>Edit</th>
+            <th>Deleted</th>
+        </tr>
+        </thead>
+        <tbody th:each="customer : ${customers}">
+      <tr>
+          <td th:text="${customer.firstName}"></td>
+          <td th:text="${customer.lastName}"></td>
+          <td th:text="${customer.province.name}"></td>
+          <td><a th:href="@{/edit-customer/__${customer.getId()}__ }">Edit</a></td>
+          <td><a th:href="@{/delete-customer/__${customer.id}__ }">Delete</a></td>
+      </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+<form>
+    <h2>Search by firstName</h2>
+    <input name="s" type="text"/>
+    <input type="submit" value="Search"/>
+</form><br/>
+</div>
+<div>
+    <div th:if="${look}">
+        <a th:href="@{'/customer'(page=${customers.number - 1}, s=${look})}"
+           th:if="${customers.hasPrevious()}">Previous</a>
+        <span th:text="${customers.number + 1}"></span>/<span th:text="${customers.totalPages}"></span>
+        <a th:href="@{'/customer'(page=${customers.number + 1}, s=${look})}" th:if="${customers.hasNext()}">Next</a>
+    </div>
+    <div th:if="${look}==null">
+    <a th:href="@{'/customer'(page=${customers.number - 1}) }" th:if="${customers.hasPrevious()}">Previous</a>
+    <span th:text="${customers.number + 1}"></span>/<span th:text="${customers.totalPages}"></span>
+    <a th:href="@{'/customer'(page=${customers.number + 1})}" th:if="${customers.hasNext()}">Next</a>
+    </div>
+</div>
+<!--<ul class="nav nav-pills">-->
+<!--    <li class="nav-item" th:each="i : ${#numbers.sequence(0,customers.totalPages - 1)}">-->
+<!--        <a th:href="@{/(page=${i})}" th:text="${i}" class="nav-link"-->
+<!--           th:classappend="${currentPage}==${i}?'active':''"></a>-->
+<!--    </li>-->
+<!--</ul>-->
+</body>
+</html>

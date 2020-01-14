@@ -1,4 +1,4 @@
 package com.codegym.cms;
 
-public class ApplicationConfigImpl {
+public class ApplicationConfigImpl extends ApplicationConfig.ApplicationConfig {
 }

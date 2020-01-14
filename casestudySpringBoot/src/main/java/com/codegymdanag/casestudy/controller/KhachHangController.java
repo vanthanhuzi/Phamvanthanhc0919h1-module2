@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.validation.Valid;
-import java.lang.reflect.Array;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
 
 @Controller
 public class KhachHangController {
@@ -39,16 +34,4 @@ public class KhachHangController {
             return new ModelAndView("dichvu/saveCustomer");
         }
     }
-}
- class A {
-    static public class B {
-    }
-
-    public class C {
-    }
-
-     public static void main(String[] args) {
-         A.B o = new A.B();
-         A.C b = (new A()). new C();
-     }
 }

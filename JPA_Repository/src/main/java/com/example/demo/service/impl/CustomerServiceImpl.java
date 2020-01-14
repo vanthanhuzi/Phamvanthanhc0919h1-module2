@@ -5,6 +5,8 @@ import com.example.demo.entity.Province;
 import com.example.demo.repository.CustomerRepository;
 import com.example.demo.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -18,8 +20,8 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public Optional<Customer> findById(Long id) {
-        return customerRepository.findById(id);
+    public Customer findById(Long id) {
+        return customerRepository.findById(id).orElse(null);
     }
 
     @Override
@@ -38,4 +40,16 @@ public class CustomerServiceImpl implements CustomerService {
     public Iterable<Customer> findAllByProvince(Province province) {
         return customerRepository.findAllByProvince(province);
     }
+
+    @Override
+    public Page<Customer> findAll(Pageable pageable) {
+        return customerRepository.findAll(pageable);
+    }
+
+    @Override
+    public Page<Customer> findAllByFirstNameContaining(String firstname, Pageable pageable) {
+        return customerRepository.findAllByFirstNameLike(firstname,pageable);
+    }
+
+
 }

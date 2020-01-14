@@ -12,13 +12,18 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 
 @Controller
 public class BookingController {
+
     @Autowired
     HopdongService hopdongService;
     @Autowired
@@ -35,19 +40,29 @@ public class BookingController {
     @PostMapping("/booking")
     public ModelAndView saveBooking(@RequestParam(value = "id") Long id,
                                     @RequestParam(value = "ngaybatdau") String ngaybatdau,
-                                    @RequestParam(value = "ngayketthuc") String ngayketthuc) throws ParseException {
-
-        SimpleDateFormat formatter1 = new SimpleDateFormat("yyyy-MM-dd");
-        Date dateStart = formatter1.parse(ngaybatdau);
-        Date dateEnd = formatter1.parse(ngayketthuc);
+                                    @RequestParam(value = "ngayketthuc") String ngayketthuc, HttpServletRequest request,
+                                    HttpServletResponse response) throws ParseException {
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        Date startDate = format.parse(ngaybatdau);
+        Date endDate = format.parse(ngayketthuc);
         FuramaHopDong furamaHopDong = new FuramaHopDong();
         furamaHopDong.setIdDichVu(id);
-        furamaHopDong.setNgayKetThuc(dateEnd);
-        furamaHopDong.setNgayLamHopDong(dateStart);
+        furamaHopDong.setNgayKetThuc(startDate);
+        furamaHopDong.setNgayLamHopDong(endDate);
         furamaHopDong.setIdKhachHang((long) 1);
         furamaHopDong.setIdNhanVien((long) 1);
         hopdongService.saveHopDong(furamaHopDong);
-        ModelAndView modelAndView = new ModelAndView("dichvu/bookingSuccess");
-        return modelAndView;
+        Iterable<FuramaHopDong> listHopDong = hopdongService.findAllByIdKhachHang((long)1);
+        for(FuramaHopDong hopDong: listHopDong){
+            String cookieValue = hopDong.getId() + "_" + hopDong.getIdDichVu() + "_" + ngaybatdau+
+                    "_"+ngayketthuc;
+            Cookie cookie = new Cookie("hopDong" +hopDong.getId(), cookieValue);
+            cookie.setMaxAge(60*60*24);
+            cookie.setPath("/history");
+            response.addCookie(cookie);
+         //   System.out.println(cookieValue);
+        }
+
+        return new ModelAndView("dichvu/bookingSuccess");
     }
 }

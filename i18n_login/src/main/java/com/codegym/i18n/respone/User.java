@@ -1,4 +1,4 @@
-package com.codegym.i18n.model;
+package com.codegym.i18n.respone;
 
 public class User {
     private String userName;

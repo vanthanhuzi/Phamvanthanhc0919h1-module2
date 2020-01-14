@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c5e57b6-5f23-42a7-8295-3193091f2f41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/controller/CookieControoler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/resources/templates/dichvu/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advance object oriented design/src/animal/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advance object oriented design/src/animal/Chicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advance object oriented design/src/animal/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advance object oriented design/src/fruit/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advance object oriented design/src/fruit/Edible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advance object oriented design/src/fruit/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advance object oriented design/src/fruit/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Advance object oriented design/src/fruit/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Commons/FuncValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Commons/FuncValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Commons/FuncWriteFileCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Commons/FuncWriteFileCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Controllers/ManageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Controllers/ManageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Models/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Models/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Models/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Models/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Models/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Models/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Models/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Tester/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Tester/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Tester/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Tester/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Tester/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Tester/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Tester/WriteAnReadFileCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Tester/WriteAnReadFileCsv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CaseStudy/src/Views/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../CaseStudy/src/Views/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ChuyenDoiTienTe_SpringMVC/src/controllers/ChuyenDoiTienTe_controllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ChuyenDoiTienTe_SpringMVC/src/controllers/ChuyenDoiTienTe_controllers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ChuyenDoiTienTe_SpringMVC/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ChuyenDoiTienTe_SpringMVC/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Connection/src/ConnectionJDBC/Connection1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Connection/src/ConnectionJDBC/Connection1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA_Repository/src/main/java/com/example/demo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA_Repository/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JPA_Repository/src/main/resources/templates/Customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../JPA_Repository/src/main/resources/templates/Customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JspDiscountCalculator/web/result1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../JspDiscountCalculator/web/result1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MangVaPhuongThuc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MangVaPhuongThuc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MangVaPhuongThuc/out/production/Module2/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../MangVaPhuongThuc/out/production/Module2/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MangVaPhuongThuc/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../MangVaPhuongThuc/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../QuanLiKhachHang_Thymeleaf/src/main/java/com/thymeleaf/demo/QLKH/Controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../QuanLiKhachHang_Thymeleaf/src/main/java/com/thymeleaf/demo/QLKH/Controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Repository_QLKH/src/main/java/com/codegym/demo/Entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Repository_QLKH/src/main/java/com/codegym/demo/Entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Repository_QLKH/src/main/java/com/codegym/demo/Repository/CrudCustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Repository_QLKH/src/main/java/com/codegym/demo/Repository/CrudCustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/Entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/Entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Restful_customer/src/main/java/com/example/demo/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring_Greeting/src/controllers/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Greeting/src/controllers/GreetingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring_Greeting/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Spring_Greeting/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanhChuyenTien/src/ConverterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThucHanhChuyenTien/src/ConverterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThucHanhModule2/src/UngDungChuyenTien.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThucHanhModule2/src/UngDungChuyenTien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bt_quanlikhachhang_springboot/src/main/java/com/codegym/bt_quanlikhachhang_springboot/controller/testController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bt_quanlikhachhang_springboot/src/main/java/com/codegym/bt_quanlikhachhang_springboot/controller/testController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bt_quanlikhachhang_springboot/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../bt_quanlikhachhang_springboot/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../caculator/src/CalculatorDiscountServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../caculator/src/CalculatorDiscountServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/CasestudyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/CasestudyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/controller/KhachHangController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/controller/KhachHangController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/entity/FuramaLoaidichvu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/entity/FuramaLoaidichvu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/repository/RepositoryHopDong.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/repository/RepositoryHopDong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/service/HopdongService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/service/HopdongService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/service/HopdongServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/java/com/codegymdanag/casestudy/service/HopdongServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/resources/templates/dichvu/booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/resources/templates/dichvu/booking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/resources/templates/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/resources/templates/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/resources/templates/khachhang/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../casestudySpringBoot/src/main/resources/templates/khachhang/sign.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/Entity/Mycount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/Entity/Mycount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/controller/CounterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/java/com/example/demo/controller/CounterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../demo/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../i18n_login/src/main/java/com/codegym/i18n/controller/DashBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../i18n_login/src/main/java/com/codegym/i18n/controller/DashBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../i18n_login/src/main/java/com/codegym/i18n/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../i18n_login/src/main/java/com/codegym/i18n/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../i18n_login/src/main/java/com/codegym/i18n/request/Credential.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../i18n_login/src/main/java/com/codegym/i18n/request/Credential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../i18n_login/src/main/java/com/codegym/i18n/respone/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../i18n_login/src/main/java/com/codegym/i18n/respone/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../i18n_login/src/main/resources/message.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../i18n_login/src/main/resources/message.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../i18n_login/src/main/resources/message_haw.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../i18n_login/src/main/resources/message_haw.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../opp/src/opp/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../opp/src/opp/CanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../opp/src/opp/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../opp/src/opp/CongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../opp/src/opp/KySu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../opp/src/opp/KySu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../opp/src/opp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../opp/src/opp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../opp/src/opp/QuanLy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../opp/src/opp/QuanLy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../opp/src/tes/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../opp/src/tes/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../opp/src/tes/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../opp/src/tes/test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../opp/src/tes/test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../opp/src/tes/test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../save_name_user/src/main/java/com/code/save_name_user/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../save_name_user/src/main/java/com/code/save_name_user/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../save_name_user/src/main/java/com/code/save_name_user/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../save_name_user/src/main/java/com/code/save_name_user/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf/src/main/java/com/example/demo/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thymeleaf/src/main/java/com/example/demo/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf/src/main/java/com/example/demo/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thymeleaf/src/main/java/com/example/demo/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf/src/main/java/com/example/demo/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thymeleaf/src/main/java/com/example/demo/service/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf/src/main/java/com/example/demo/service/PersonServiceIPM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../thymeleaf/src/main/java/com/example/demo/service/PersonServiceIPM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../thymeleaf/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/controller/CustomerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/dao/CustomerDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/ApplicationConfigImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/ApplicationConfigImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/ApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/repository/imp/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/repository/imp/CustomerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/webapp/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/webapp/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/main/webapp/views/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../untitled1/src/main/webapp/views/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled1/src/thanh/Connection1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled2/src/JDBC/CreateTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled2/src/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled5/src/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../webHienThiThoiGian/src/ServerTimeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../webHienThiThoiGian/src/ServerTimeServlet.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1W10IzEJaRm6fdyMGPX72WUUBs1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../casestudySpringBoot" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c5e57b6-5f23-42a7-8295-3193091f2f41" name="Default Changelist" comment="" />
+      <created>1578301717826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578301717826</updated>
+      <workItem from="1578301719141" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

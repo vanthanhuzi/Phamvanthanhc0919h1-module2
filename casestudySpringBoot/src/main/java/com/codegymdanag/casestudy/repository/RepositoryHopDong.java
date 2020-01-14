@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface RepositoryHopDong extends JpaRepository<FuramaHopDong, Long> {
+    Iterable<FuramaHopDong> findAllByIdKhachHang(Long id);
 
 }

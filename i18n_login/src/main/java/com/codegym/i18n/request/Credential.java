@@ -1,4 +1,4 @@
-package com.codegym.i18n.model;
+package com.codegym.i18n.request;
 
 public class Credential {
 

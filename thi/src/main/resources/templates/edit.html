@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1>Edit Book</h1>
+<p>
+    <a th:href="@{/book}">Book list</a>
+</p>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form action="#" th:action="@{/edit-book}" th:object="${book}" method="post">
+    <input th:type="hidden" name="id" th:field="*{id}">
+    <table>
+        <tr>
+            <td>Mã Sách:</td>
+            <td><input type="text" th:field="*{maSach}"/></td>
+        </tr>
+        <tr>
+            <td>Tên Sách :</td>
+            <td><input type="text" th:field="*{nameBook}"/></td>
+        </tr>
+        <tr>
+            <td>Tác giả :</td>
+            <td><input type="text" th:field="*{tacGia}"/></td>
+        </tr>
+        <tr>
+            <td>Giá bán :</td>
+            <td><input type="text" th:field="*{giaBan}"/></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Update Book"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

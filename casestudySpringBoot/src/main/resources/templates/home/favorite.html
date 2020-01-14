@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2> History Furama</h2>
+    <table class="table table-dark table-hover">
+        <thead>
+        <tr>
+            <th>Tên dịch vụ</th>
+            <th>diện tích</th>
+            <th>Số người tối đa </th>
+            <th>Số tầng</th>
+            <th>Trạng thái</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="hopdong :${favorite}">
+            <td th:text="${hopdong.getTenDichVu()}"></td>
+            <td th:text="${hopdong.getDientich()} + m2"></td>
+            <td th:text="${hopdong.getSoNguoiToiDa()}"></td>
+            <td th:text="${hopdong.getSoTang()}"></td>
+            <td th:text="${hopdong.getTrangThai()}"></td>
+            <!--            <td th:text="${hopdong.getNgayLamHopDong()}"></td>-->
+            <!--            <td th:text="${hopdong.getNgayKetThuc()}"></td>-->
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

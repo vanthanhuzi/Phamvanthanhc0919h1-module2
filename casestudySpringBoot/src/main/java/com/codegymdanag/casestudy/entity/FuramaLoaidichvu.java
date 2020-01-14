@@ -3,6 +3,7 @@ package com.codegymdanag.casestudy.entity;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 
 import javax.persistence.*;
+import java.util.Arrays;
 import java.util.List;
 
 @Entity

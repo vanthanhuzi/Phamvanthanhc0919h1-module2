@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="81be9fc7-c444-49c6-a504-000b35721049" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../CaseStudy/src/Controllers/FuncWriteFileCSV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../CaseStudy/src/Controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../CaseStudy/src/Controllers/ManageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../CaseStudy/src/Models/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../CaseStudy/src/Models/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../CaseStudy/src/Models/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../CaseStudy/src/Models/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../CaseStudy/src/Views/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../CaseStudy/src/Views/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Advance object oriented design/src/animal/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Advance object oriented design/src/animal/Chicken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Advance object oriented design/src/animal/Tiger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Advance object oriented design/src/fruit/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Advance object oriented design/src/fruit/Edible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Advance object oriented design/src/fruit/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Advance object oriented design/src/fruit/Orange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Advance object oriented design/src/fruit/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MangVaPhuongThuc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MangVaPhuongThuc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../opp/src/opp/CanBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../opp/src/opp/CanBo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../opp/src/opp/CongNhan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../opp/src/opp/CongNhan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../opp/src/opp/KySu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../opp/src/opp/KySu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../opp/src/opp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../opp/src/opp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../opp/src/opp/QuanLy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../opp/src/opp/QuanLy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../opp/src/tes/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../opp/src/tes/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../opp/src/tes/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../opp/src/tes/test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../opp/src/tes/test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../opp/src/tes/test3.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1SygYUhtmOiP0RgJw5RiipkOIiw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../CaseStudy" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81be9fc7-c444-49c6-a504-000b35721049" name="Default Changelist" comment="" />
+      <created>1572541296135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572541296135</updated>
+      <workItem from="1572541297368" duration="165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

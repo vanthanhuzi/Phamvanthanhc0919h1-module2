@@ -6,10 +6,7 @@ import com.thymeleaf.demo.QLKH.Service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
@@ -45,7 +42,7 @@ private CustomerService customerService ;
     return "edit";
     }
     @PostMapping("/customer/update")
-    public String update(Customer customer, RedirectAttributes redirect) {
+    public String update(@ModelAttribute("customer") Customer customer, RedirectAttributes redirect) {
         customerService.update(customer.getId(), customer);
         redirect.addFlashAttribute("success", "Modified customer successfully!");
         return "redirect:/";

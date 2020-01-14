@@ -5,11 +5,13 @@ import com.example.demo.entity.Province;
 import com.example.demo.service.CustomerService;
 import com.example.demo.service.ProvinceService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Optional;
@@ -24,18 +26,33 @@ public class CustomerController {
     public Iterable<Province> provinces(){
         return provinceService.findAll();
     }
-
-    @GetMapping("/customer")
-    public ModelAndView listCustomers(){
-        Iterable<Customer> customers = customerService.findAll();
-        ModelAndView modelAndView = new ModelAndView("customer/list");
-        modelAndView.addObject("customers", customers);
-        return modelAndView;
+    @GetMapping("/")
+    public String listAll(){
+        return "customer/index";
     }
 
-    @GetMapping("/create-customer")
+    @GetMapping("/customer")
+    public String listCustomers(Model model, @RequestParam(value = "s", required = false) String  s,
+                                @PageableDefault(size = 5) Pageable pageable){
+
+        Page<Customer> customers;
+        if(s!=null){
+            customers = customerService.findAllByFirstNameContaining(s , pageable);
+            model.addAttribute("look",s);
+
+        } else {
+            customers = customerService.findAll(pageable);
+
+        }
+//        model.addAttribute("currentPage", page);
+
+        model.addAttribute("customers",customers);
+        return "customer/list";
+    }
+
+    @GetMapping("/customer/create-customer")
     public ModelAndView showCreateForm(){
-        ModelAndView modelAndView = new ModelAndView("/customer/create");
+        ModelAndView modelAndView = new ModelAndView("customer/create");
         modelAndView.addObject("customer", new Customer());
         return modelAndView;
     }
@@ -51,9 +68,9 @@ public class CustomerController {
 
     @GetMapping("/edit-customer/{id}")
     public ModelAndView showEditForm(@PathVariable Long id){
-        Optional<Customer> customer = customerService.findById(id);
+        Customer customer = customerService.findById(id);
         if(customer != null) {
-            ModelAndView modelAndView = new ModelAndView("/customer/edit");
+            ModelAndView modelAndView = new ModelAndView("customer/edit");
             modelAndView.addObject("customer", customer);
             return modelAndView;
 
@@ -66,7 +83,7 @@ public class CustomerController {
     @PostMapping("/edit-customer")
     public ModelAndView updateCustomer(@ModelAttribute("customer") Customer customer){
         customerService.save(customer);
-        ModelAndView modelAndView = new ModelAndView("/customer/edit");
+        ModelAndView modelAndView = new ModelAndView("customer/edit");
         modelAndView.addObject("customer", customer);
         modelAndView.addObject("message", "Customer updated successfully");
         return modelAndView;
@@ -74,9 +91,9 @@ public class CustomerController {
 
     @GetMapping("/delete-customer/{id}")
     public ModelAndView showDeleteForm(@PathVariable Long id){
-        Optional<Customer> customer = customerService.findById(id);
+        Customer customer = customerService.findById(id);
         if(customer != null) {
-            ModelAndView modelAndView = new ModelAndView("/customer/delete");
+            ModelAndView modelAndView = new ModelAndView("customer/deleted");
             modelAndView.addObject("customer", customer);
             return modelAndView;
 
@@ -89,7 +106,7 @@ public class CustomerController {
     @PostMapping("/delete-customer")
     public String deleteCustomer(@ModelAttribute("customer") Customer customer){
         customerService.remove(customer.getId());
-        return "redirect:customers";
+        return "redirect:/customer";
     }
 
 }

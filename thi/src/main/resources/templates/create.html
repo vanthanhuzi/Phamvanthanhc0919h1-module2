@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<th:block th:if="${message}">
+<p th:text="${message}"></p>
+</th:block>
+
+<p style="color: red">
+    <a th:href="@{/book}"> list Book</a>
+</p>
+<div class="col-5">
+    <div class="container">
+        <h1 style="text-align: center">Create Book</h1>
+
+        <form class="form-inline" th:action="@{/create-book}" method="post" th:object="${book}">
+            <div class="form-group">
+                <label for="masach" class="mb-2 mr-sm-2"> Mã Sách :</label>
+                <p th:if="${#fields.hasErrors('maSach')}" th:errors="*{maSach}" style="color: red"></p>
+                <input type="text"  id="masach"  name="masach" th:field="*{maSach}">
+            </div>
+            <div class="form-group">
+                <label for="tensach" class="mb-2 mr-sm-2"> Name Book:</label>
+                <p th:if="${#fields.hasErrors('nameBook')}" th:errors="*{nameBook}" style="color: red"></p>
+                <input type="text" id="tensach"  name="tensach" th:field="*{nameBook}">
+            </div>
+            <div class="form-group">
+                <label for="tacgia" class="mb-2 mr-sm-2"> Tac Giả:</label>
+                <p th:if="${#fields.hasErrors('tacGia')}" th:errors="*{tacGia}" style="color: red"></p>
+                <input type="text" id="tacgia"  name="tacgia" th:field="*{tacGia}">
+            </div>
+            <div class="form-group">
+                <label for="giaban" class="mb-2 mr-sm-2"> Giá Book:</label>
+                <p th:if="${#fields.hasErrors('giaBan')}" th:errors="*{giaBan}" style="color: red"></p>
+                <input type="text" id="giaban"  name="giaban" th:field="*{giaBan}">
+            </div>
+
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

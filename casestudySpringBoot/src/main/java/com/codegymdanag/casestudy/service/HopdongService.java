@@ -17,4 +17,5 @@ public interface HopdongService {
 
 
      public void removeHopDong(Long id);
+    Iterable<FuramaHopDong> findAllByIdKhachHang(Long id);
 }

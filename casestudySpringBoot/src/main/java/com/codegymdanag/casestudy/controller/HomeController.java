@@ -1,15 +1,14 @@
 package com.codegymdanag.casestudy.controller;
 
+import com.codegymdanag.casestudy.entity.FuramaFavorite;
 import com.codegymdanag.casestudy.service.DichVuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
+@SessionAttributes("favorite")
 public class HomeController {
     @Autowired
     DichVuService dichVuService;
@@ -32,5 +31,19 @@ public class HomeController {
 
 
     }
+    @GetMapping("/favorite/{id}")
+    public String saveFuramaFavorite(@PathVariable("id") Long id,
+                                     @ModelAttribute("favorite") FuramaFavorite sessionFavorite){
+        sessionFavorite.add(dichVuService.findById(id));
+        return "redirect:/";
 
+    }
+    @GetMapping("/favoritePage")
+    public String showFavorite(){
+        return "home/favorite";
+    }
+@ModelAttribute("favorite")
+    public FuramaFavorite setupSession(){
+        return new FuramaFavorite();
+}
 }

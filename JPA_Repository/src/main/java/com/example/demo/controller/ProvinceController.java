@@ -42,7 +42,7 @@ public class ProvinceController {
     public ModelAndView saveProvince(@ModelAttribute("province") Province province){
         provinceService.save(province);
 
-        ModelAndView modelAndView = new ModelAndView("/province/create");
+        ModelAndView modelAndView = new ModelAndView("province/create");
         modelAndView.addObject("province", new Province());
         modelAndView.addObject("message", "New province created successfully");
         return modelAndView;
@@ -75,7 +75,7 @@ public class ProvinceController {
     public ModelAndView showDeleteForm(@PathVariable Long id){
         Province province = provinceService.findById(id);
         if(province != null) {
-            ModelAndView modelAndView = new ModelAndView("/province/delete");
+            ModelAndView modelAndView = new ModelAndView("province/delete");
             modelAndView.addObject("province", province);
             return modelAndView;
 
@@ -101,7 +101,7 @@ public class ProvinceController {
 
         Iterable<Customer> customers = customerService.findAllByProvince(province);
 
-        ModelAndView modelAndView = new ModelAndView("/province/view");
+        ModelAndView modelAndView = new ModelAndView("province/view");
         modelAndView.addObject("province", province);
         modelAndView.addObject("customers", customers);
         return modelAndView;
